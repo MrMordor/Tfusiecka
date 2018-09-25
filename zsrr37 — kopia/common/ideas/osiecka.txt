@@ -1,0 +1,54 @@
+ideas = {
+
+country = {
+
+}
+
+
+political_advisor = {
+
+	ZSO_michal_rosa = {
+
+		picture = generic_fascist_demagogue_eastern_european_2d
+
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { wehraboo }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ZSO_bartosz_krupa = {
+	
+		picture = generic_communist_revolutionary_eastern_european_2d
+
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { smieszkomunista }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ZSO_norbert_pajor = {
+
+		picture = generic_democratic_reformer_eastern_european_2d
+
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { biznesmejker }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
