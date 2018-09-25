@@ -94,7 +94,7 @@ create_country_leader = {
 	picture = "Portrait_Osiecka_Michal_Polak.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
+	traits = { dictator 
 		#
 	}
 }

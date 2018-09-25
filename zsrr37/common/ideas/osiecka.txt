@@ -52,3 +52,55 @@ political_advisor = {
 		}
 	}
 }
+
+theorist = {
+
+	ZSO_adam_bojanowski = {
+	
+		picture = generic_army_europe_6
+		
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { lowca_radzieckich_krukow }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	ZSO_henryk_giergielewicz = {
+	
+		picture = generic_army_europe_5
+		
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { jak_strzelac_lufy }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+army_chief = {
+
+	ZSO_tadeusz_cyganski = {
+	
+		picture = generic_army_europe_5
+		
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { ma_gadane wuefista }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
