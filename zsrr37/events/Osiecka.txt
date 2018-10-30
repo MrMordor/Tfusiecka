@@ -1,0 +1,39 @@
+﻿add_namespace = osiecka
+
+country_event = {
+	id = osiecka.1
+	title = osiecka.1.t
+	desc = osiecka.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1}
+
+	
+	option = {
+		name = osiecka.1.a
+		set_country_flag = zso_nsopi
+		add_political_power = 100
+		add_stability = -0.1
+		add_popularity = { ideology = fascism popularity = 0.3 }
+		}
+	option = {
+		name = osiecka.1.b
+		set_country_flag = zso_samorzad
+		add_political_power = -100
+		add_stability = 0.2
+		add_popularity = { ideology = democratic popularity = 0.3 }
+		}
+	option = {
+		name = osiecka.1.c
+		set_country_flag = zso_kpzs
+		add_political_power = 200
+		add_stability = -0.2
+		add_popularity = { ideology = communism popularity = 0.3 }
+		}	
+	option = {
+		name = osiecka.1.e
+		add_stability = 0.1
+		set_country_flag = zso_statusquo
+		add_popularity = { ideology = neutrality popularity = 0.3 }
+		}
+	}

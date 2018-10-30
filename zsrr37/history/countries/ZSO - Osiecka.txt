@@ -25,7 +25,10 @@ set_technology = {
 	trench_warfare = 1
 }
 
-
+add_ideas = {
+	ZSO_helikopter
+	ZSO_szkola_dla_elity
+}
 
 set_convoys = 0
 
@@ -33,19 +36,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 18
+			popularity = 25
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 25
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 25
 		}
 		
 		neutrality = { 
-			popularity = 65
+			popularity = 25
 		}
 	}
 	
@@ -78,9 +81,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Samorząd Uczniowski"
-	desc = "POLITICS_SAMORZAD_UCZNIOWSKI_DESC"
-	picture = "Portrait_Osiecka_Samorzad_Uczniowski.dds"
+	name = "Klaudia Jadczak"
+	desc = "POLITICS_KLAUDIA_JADCZAK_DESC"
+	picture = "Portrait_Osiecka_Klaudia_Jadczak.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -125,11 +128,11 @@ create_corps_commander = {
 	name = "Henryk Giergielewicz"
 	picture = "Portrait_Osiecka_Henryk_Giergielewicz.dds"
 	traits = {  offensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -147,9 +150,9 @@ create_corps_commander = {
 	name = "Jerzy Dorobisz"
 	picture = "Portrait_Osiecka_Jerzy_Dorobisz.dds"
 	traits = {  }
-	skill = 4
+	skill = 3
 	attack_skill = 3
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
 }

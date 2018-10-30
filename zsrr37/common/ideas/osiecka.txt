@@ -1,8 +1,109 @@
 ideas = {
 
-country = {
-
-}
+	country = {
+		ZSO_helikopter = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = ZSO_helikopter
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				industry_repair_factor = -0.2
+			}
+		}
+		
+		ZSO_szkola_dla_elity = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		ZSO_polak = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.2
+			}
+		}
+		ZSO_samorzadowcy = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.2
+			}
+		}
+		ZSO_komuchy = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.2
+			}
+		}
+		ZSO_status_quo = {
+		
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.2
+			}
+		}
+	}
+	
 
 
 political_advisor = {
@@ -78,7 +179,13 @@ theorist = {
 			original_tag = ZSO
 		}
 		
-		traits = { jak_strzelac_lufy }
+		research_bonus = { 
+			land_doctrine = 0.2
+			naval_doctrine = 0.2
+			air_doctrine = 0.2
+		}
+		
+		traits = { military_theorist }
 		
 		ai_will_do = {
 			factor = 0
@@ -102,5 +209,87 @@ army_chief = {
 			factor = 0
 		}
 	}
+}
+
+air_chief = {
+
+	ZSO_iwona_brynda = {
 	
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { ma_odloty }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+navy_chief = {
+
+	ZSO_leszek_zakrzewski = {
 	
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { navy_chief_decisive_battle_3 }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+high_command = {
+
+	ZSO_michal_polakg = {
+	
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		available = {
+			NOT = { has_government = communism }
+		}
+			
+		traits = { cisckrieg swiatlowody_ftw }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ZSO_elzbieta_rejniakg = {
+	
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		available = {
+			NOT = { has_government = communism }
+		}
+		
+		traits = { polonistka }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	ZSO_zdzislaw_woch = {
+		
+		allowed = {
+			original_tag = ZSO
+		}
+		
+		traits = { kierownik_praktyk }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+}

@@ -1,0 +1,28 @@
+state={
+	id=763
+	name="STATE_10"
+	manpower = 308900000
+	buildings_max_level_factor = 15
+	
+	state_category = megalopolis
+
+	history={
+		owner = ZSO
+		victory_points = {
+			524 50 
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 7
+			anti_air_building = 2
+			air_base = 10
+		}
+		add_core_of = POL
+		add_core_of = ZSO
+	}
+
+	provinces={
+		402 524 12562 
+	}
+}
