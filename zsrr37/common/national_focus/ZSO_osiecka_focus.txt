@@ -99,7 +99,7 @@ x = 9
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ZSO_wyborysamorzdowe } 
+prerequisite = { focus = ZSO_wyborysamorzdowe }  
 mutually_exclusive = { focus = ZSO_zwycistwopolaka } 
 mutually_exclusive = { focus = ZSO_zwycistwosamorzdowcw } 
 mutually_exclusive = { focus = ZSO_zwycistwostaregoporzdku } 
@@ -123,7 +123,7 @@ x = 17
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ZSO_wyborysamorzdowe } 
+prerequisite = { focus = ZSO_wyborysamorzdowe }  
 mutually_exclusive = { focus = ZSO_zwycistwopolaka } 
 mutually_exclusive = { focus = ZSO_zwycistwokpzs } 
 mutually_exclusive = { focus = ZSO_zwycistwostaregoporzdku } 
@@ -159,6 +159,46 @@ has_country_flag = zso_statusquo
  } 
 completion_reward = { 
 add_ideas = ZSO_status_quo
+ } 
+
+ } 
+
+#Focus for Rozwiązanie samorządu uczniowskiego
+focus = { 
+id = ZSO_rozwizaniesamorzduuczniowskiego
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 1
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ZSO_zwycistwopolaka } 
+mutually_exclusive = { focus = ZSO_marionetkowysamorzd } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = -0.3
+add_ideas = ZSO_rip_samorzad
+ } 
+
+ } 
+
+#Focus for Marionetkowy samorząd
+focus = { 
+id = ZSO_marionetkowysamorzd
+icon = GFX_goal_generic_forceful_treaty
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ZSO_zwycistwopolaka } 
+mutually_exclusive = { focus = ZSO_rozwizaniesamorzduuczniowskiego } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_stability = -0.05
+add_ideas = ZSO_marionetki
  } 
 
  } 

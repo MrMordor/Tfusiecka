@@ -102,8 +102,41 @@ ideas = {
 				neutrality_drift = 0.2
 			}
 		}
+		ZSO_rip_samorzad = {
+			
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.5
+				stability_weekly = 0.002
+			}
+		}
+		ZSO_marionetki = {
+
+			allowed = {
+				original_tag = ZSO
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.15
+				stability_weekly = 0.001
+		}
 	}
-	
+}	
 
 
 political_advisor = {
